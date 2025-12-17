@@ -994,11 +994,11 @@
   </SerializableParameter>
   <SerializableParameter>
     <Address>248</Address>
-    <Value>1</Value>
+    <Value>0</Value>
   </SerializableParameter>
   <SerializableParameter>
     <Address>249</Address>
-    <Value>0</Value>
+    <Value>1</Value>
   </SerializableParameter>
   <SerializableParameter>
     <Address>250</Address>
