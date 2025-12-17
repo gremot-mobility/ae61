@@ -990,15 +990,15 @@
   </SerializableParameter>
   <SerializableParameter>
     <Address>247</Address>
-    <Value>5</Value>
+    <Value>0</Value>
   </SerializableParameter>
   <SerializableParameter>
     <Address>248</Address>
-    <Value>4</Value>
+    <Value>1</Value>
   </SerializableParameter>
   <SerializableParameter>
     <Address>249</Address>
-    <Value>2</Value>
+    <Value>0</Value>
   </SerializableParameter>
   <SerializableParameter>
     <Address>250</Address>
