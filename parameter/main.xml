@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<!--All Parameters - Created: 2025-12-11 06:35:56 +05:30 (India Standard Time)-->
+<!--All Parameters - Created: 2025-12-25 05:05:54 +05:30 (India Standard Time)-->
 <ArrayOfSerializableParameter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <SerializableParameter>
     <!--Controller output current rating (Amps) = 268-->
@@ -37,14 +37,14 @@
     <Value>12290</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--Current regulator Kp () = 1.1882-->
+    <!--Current regulator Kp () = 1.2073-->
     <Address>7</Address>
-    <Value>4867</Value>
+    <Value>4945</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--Current regulator Ki () = 470.1875-->
+    <!--Current regulator Ki () = 411.5625-->
     <Address>8</Address>
-    <Value>7523</Value>
+    <Value>6585</Value>
   </SerializableParameter>
   <SerializableParameter>
     <!--Speed regulator Kp () = 1.8997-->
@@ -57,9 +57,9 @@
     <Value>281</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--Speed regulator mode () = 1 is torque-->
+    <!--Speed regulator mode () = 2 is torque mode with speed limiting-->
     <Address>11</Address>
-    <Value>1</Value>
+    <Value>2</Value>
   </SerializableParameter>
   <SerializableParameter>
     <!--Reserved_Level2_12 () = 6049-->
@@ -72,9 +72,9 @@
     <Value>35</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--Phase A current gain (Amps/Volt) = 226.7344-->
+    <!--Phase A current gain (Amps/Volt) = 225.625-->
     <Address>14</Address>
-    <Value>14511</Value>
+    <Value>14440</Value>
   </SerializableParameter>
   <SerializableParameter>
     <!--Voltage gain (Volts/Volt) = 32.5-->
@@ -82,9 +82,9 @@
     <Value>8320</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--Phase C current gain (Amps/Volt) = -185.6406-->
+    <!--Phase C current gain (Amps/Volt) = -187.6094-->
     <Address>16</Address>
-    <Value>-11881</Value>
+    <Value>-12007</Value>
   </SerializableParameter>
   <SerializableParameter>
     <!--Analog Input Gain - 0-5V inputs (Volts/Volt) = 1.6807-->
@@ -322,9 +322,9 @@
     <Value>0</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--Baud rate port2 (Baud) = 115200-->
+    <!--Baud rate port2 (Baud) = 9600-->
     <Address>64</Address>
-    <Value>1152</Value>
+    <Value>96</Value>
   </SerializableParameter>
   <SerializableParameter>
     <!--Slave ID port2 (Node #) = 2-->
@@ -367,19 +367,19 @@
     <Value>2573</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--Rated motor power (Race mode Throttle power) (Watts) = 8000-->
+    <!--Rated motor power (Race mode Throttle power) (Watts) = 4250-->
     <Address>73</Address>
-    <Value>8000</Value>
+    <Value>4250</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--Ls (uHenries) = 61-->
+    <!--Ls (uHenries) = 62-->
     <Address>74</Address>
-    <Value>61</Value>
+    <Value>62</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--Rs (mOhms) = 24-->
+    <!--Rs (mOhms) = 21-->
     <Address>75</Address>
-    <Value>24</Value>
+    <Value>21</Value>
   </SerializableParameter>
   <SerializableParameter>
     <!--Display protocol2 () = disabled-->
@@ -387,9 +387,9 @@
     <Value>0</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--Motor position sensor type () = Hall Based-->
+    <!--Motor position sensor type () = Sensorless-->
     <Address>77</Address>
-    <Value>0</Value>
+    <Value>2</Value>
   </SerializableParameter>
   <SerializableParameter>
     <!--# of motor pole pairs () = 4-->
@@ -397,9 +397,9 @@
     <Value>4</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--Hall offset (degrees) = 3.0322-->
+    <!--Hall offset (degrees) = 3.0212-->
     <Address>79</Address>
-    <Value>276</Value>
+    <Value>275</Value>
   </SerializableParameter>
   <SerializableParameter>
     <!--Hall sector[0] () = -1-->
@@ -610,24 +610,24 @@
     <Value>0</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--Rated motor power (Street mode PAS power) (Watts) = 8000-->
+    <!--Rated motor power (Street mode PAS power) (Watts) = 4250-->
     <Address>121</Address>
-    <Value>8000</Value>
+    <Value>4250</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--Rated motor power (Race mode PAS power) (Watts) = 8000-->
+    <!--Rated motor power (Race mode PAS power) (Watts) = 4250-->
     <Address>122</Address>
-    <Value>8000</Value>
+    <Value>4250</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--Vehicle maximum speed (Street mode PAS max speed) (km/hr) = 24-->
+    <!--Vehicle maximum speed (Street mode PAS max speed) (km/hr) = 15-->
     <Address>123</Address>
-    <Value>6144</Value>
+    <Value>3840</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--Vehicle maximum speed (Race mode PAS max speed) (km/hr) = 24-->
+    <!--Vehicle maximum speed (Race mode PAS max speed) (km/hr) = 15-->
     <Address>124</Address>
-    <Value>6144</Value>
+    <Value>3840</Value>
   </SerializableParameter>
   <SerializableParameter>
     <!--Customer Parameter version () = 0-->
@@ -660,9 +660,9 @@
     <Value>0</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--Rated motor power (Street mode Throttle power) (Watts) = 8000-->
+    <!--Rated motor power (Street mode Throttle power) (Watts) = 4250-->
     <Address>131</Address>
-    <Value>8000</Value>
+    <Value>4250</Value>
   </SerializableParameter>
   <SerializableParameter>
     <!--Pedalec sensorless open loop starting current (pu A) = 0.25-->
@@ -760,9 +760,9 @@
     <Value>3072</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--Throttle deadband threshold (Volts) = 0.2-->
+    <!--Throttle deadband threshold (Volts) = 1-->
     <Address>151</Address>
-    <Value>819</Value>
+    <Value>4096</Value>
   </SerializableParameter>
   <SerializableParameter>
     <!--Throttle fault range (Volts) = 0.2-->
@@ -875,9 +875,9 @@
     <Value>0</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--Features2 () = 0000000011000000-->
+    <!--Features2 () = 0000100011000000-->
     <Address>174</Address>
-    <Value>192</Value>
+    <Value>2240</Value>
   </SerializableParameter>
   <SerializableParameter>
     <!--Pedal speed map offset (pu) = 0.3999-->
@@ -1070,14 +1070,14 @@
     <Value>50</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--Throttle full voltage (Volts) = 4-->
+    <!--Throttle full voltage (Volts) = 4.9783-->
     <Address>213</Address>
-    <Value>16384</Value>
+    <Value>20391</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--Throttle off voltage (Volts) = 0.7996-->
+    <!--Throttle off voltage (Volts) = 0.043-->
     <Address>214</Address>
-    <Value>3275</Value>
+    <Value>176</Value>
   </SerializableParameter>
   <SerializableParameter>
     <!--Analogue brake full voltage (Volts) = 4-->
@@ -1105,9 +1105,9 @@
     <Value>2048</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--Positive motoring torque ramp (ms) = 200-->
+    <!--Positive motoring torque ramp (ms) = 1000-->
     <Address>220</Address>
-    <Value>200</Value>
+    <Value>1000</Value>
   </SerializableParameter>
   <SerializableParameter>
     <!--Negative motoring torque ramp (ms) = 100-->
@@ -1135,9 +1135,9 @@
     <Value>50</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--Gear ratio (N:1) = 1-->
+    <!--Gear ratio (N:1) = 43.1875-->
     <Address>226</Address>
-    <Value>256</Value>
+    <Value>11056</Value>
   </SerializableParameter>
   <SerializableParameter>
     <!--Wheel diameter (mm) = 660-->
@@ -1150,9 +1150,9 @@
     <Value>256</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--Vehicle maximum speed (Race mode Throttle max speed) (km/hr) = 24-->
+    <!--Vehicle maximum speed (Race mode Throttle max speed) (km/hr) = 15-->
     <Address>229</Address>
-    <Value>6144</Value>
+    <Value>3840</Value>
   </SerializableParameter>
   <SerializableParameter>
     <!--Vehicle jog speed (km/hr) = 3-->
@@ -1185,19 +1185,19 @@
     <Value>2</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--Vehicle maximum speed (Street mode Throttle max speed) (km/hr) = 24-->
+    <!--Vehicle maximum speed (Street mode Throttle max speed) (km/hr) = 15-->
     <Address>236</Address>
-    <Value>6144</Value>
+    <Value>3840</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--MFG_FlowCheck () = 0-->
+    <!--MFG_FlowCheck () = 39-->
     <Address>237</Address>
-    <Value>0</Value>
+    <Value>39</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--MFG Barcode Type () = 0-->
+    <!--MFG Barcode Type () = -1-->
     <Address>238</Address>
-    <Value>0</Value>
+    <Value>-1</Value>
   </SerializableParameter>
   <SerializableParameter>
     <!--ADC Saturation Control () = 0000000000000000-->
@@ -1240,9 +1240,9 @@
     <Value>3072</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--Throttle sensor source () = Remote throttle voltage-->
+    <!--Throttle sensor source () = Throttle-->
     <Address>247</Address>
-    <Value>5</Value>
+    <Value>0</Value>
   </SerializableParameter>
   <SerializableParameter>
     <!--Cutoff brake sensor source () = Remote-->
@@ -1275,9 +1275,9 @@
     <Value>0</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--Speed limit ramp time (ms) = 100-->
+    <!--Speed limit ramp time (ms) = 200-->
     <Address>254</Address>
-    <Value>100</Value>
+    <Value>200</Value>
   </SerializableParameter>
   <SerializableParameter>
     <!--CAN sync loss timeout (ms) = 0-->
@@ -1290,9 +1290,9 @@
     <Value>6026</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--controller status () = 3=Run-->
+    <!--controller status () = 1=Idle-->
     <Address>257</Address>
-    <Value>3</Value>
+    <Value>1</Value>
   </SerializableParameter>
   <SerializableParameter>
     <!--faults () = 0000000000000000-->
@@ -1300,44 +1300,44 @@
     <Value>0</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--controller temperature (deg C) = 45-->
+    <!--controller temperature (deg C) = 34-->
     <Address>259</Address>
-    <Value>45</Value>
+    <Value>34</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--vehicle speed (km/hr) = 127.2734-->
+    <!--vehicle speed (km/hr) = 0-->
     <Address>260</Address>
-    <Value>32582</Value>
+    <Value>0</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--motor temperature (deg C) = 97-->
+    <!--motor temperature (deg C) = -6-->
     <Address>261</Address>
-    <Value>97</Value>
+    <Value>-6</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--motor current (Amps) = 40.375-->
+    <!--motor current (Amps) = 0.0625-->
     <Address>262</Address>
-    <Value>1292</Value>
+    <Value>2</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--motor rpm (RPM) = 2560-->
+    <!--motor rpm (RPM) = 0-->
     <Address>263</Address>
-    <Value>2560</Value>
+    <Value>0</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--motor speed (% of rated rpm) = 99.1699-->
+    <!--motor speed (% of rated rpm) = 0-->
     <Address>264</Address>
-    <Value>4062</Value>
+    <Value>0</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--battery voltage (Volts) = 50.0625-->
+    <!--battery voltage (Volts) = 50.0938-->
     <Address>265</Address>
-    <Value>1602</Value>
+    <Value>1603</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--battery current (Amps) = 34.4688-->
+    <!--battery current (Amps) = 0-->
     <Address>266</Address>
-    <Value>1103</Value>
+    <Value>0</Value>
   </SerializableParameter>
   <SerializableParameter>
     <!--battery state of charge (%) = 100-->
@@ -1345,9 +1345,9 @@
     <Value>100</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--battery power (Watts) = 1728-->
+    <!--battery power (Watts) = 0-->
     <Address>268</Address>
-    <Value>1728</Value>
+    <Value>0</Value>
   </SerializableParameter>
   <SerializableParameter>
     <!--last fault () = 0000100000000000-->
@@ -1355,39 +1355,39 @@
     <Value>2048</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--throttle voltage (Volts) = 0.0527-->
+    <!--throttle voltage (Volts) = 0.0417-->
     <Address>270</Address>
-    <Value>216</Value>
+    <Value>171</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--brake 1 voltage (Volts) = 4.7617-->
+    <!--brake 1 voltage (Volts) = 4.74-->
     <Address>271</Address>
-    <Value>19504</Value>
+    <Value>19415</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--brake 2 voltage (Volts) = 2.8296-->
+    <!--brake 2 voltage (Volts) = 4.7305-->
     <Address>272</Address>
-    <Value>11590</Value>
+    <Value>19376</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--raw controller temperature sensor voltage (Volts) = 2.1558-->
+    <!--raw controller temperature sensor voltage (Volts) = 2.3772-->
     <Address>273</Address>
-    <Value>8830</Value>
+    <Value>9737</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--light sensor voltage (Volts) = 0.0305-->
+    <!--light sensor voltage (Volts) = 0.0249-->
     <Address>274</Address>
-    <Value>125</Value>
+    <Value>102</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--abms voltage (Volts) = 0.1455-->
+    <!--abms voltage (Volts) = 0.1064-->
     <Address>275</Address>
-    <Value>149</Value>
+    <Value>109</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--digital inputs () = 0100000000000101-->
+    <!--digital inputs () = 0000000000000000-->
     <Address>276</Address>
-    <Value>16389</Value>
+    <Value>0</Value>
   </SerializableParameter>
   <SerializableParameter>
     <!--warnings () = 0000000000000000-->
@@ -1395,9 +1395,9 @@
     <Value>0</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--rotor angle (degrees) = -35.2057-->
+    <!--rotor angle (degrees) = 0-->
     <Address>278</Address>
-    <Value>-6409</Value>
+    <Value>0</Value>
   </SerializableParameter>
   <SerializableParameter>
     <!--battery temperature (deg C) = 21-->
@@ -1405,44 +1405,44 @@
     <Value>21</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--battery power percent (% of rated power) = 21-->
+    <!--battery power percent (% of rated power) = 0-->
     <Address>280</Address>
-    <Value>21</Value>
+    <Value>0</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--dsp core temperature (deg C) = 54-->
+    <!--dsp core temperature (deg C) = 41-->
     <Address>281</Address>
-    <Value>54</Value>
+    <Value>41</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--phase A current (Amps) = 27.7188-->
+    <!--phase A current (Amps) = -0.5938-->
     <Address>282</Address>
-    <Value>887</Value>
+    <Value>-19</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--phase B current (Amps) = 13.5625-->
+    <!--phase B current (Amps) = 0.875-->
     <Address>283</Address>
-    <Value>434</Value>
+    <Value>28</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--phase C current (Amps) = -41.3125-->
+    <!--phase C current (Amps) = -0.3125-->
     <Address>284</Address>
-    <Value>-1322</Value>
+    <Value>-10</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--phase A voltage (Volts) = 45.6562-->
+    <!--phase A voltage (Volts) = 25.7812-->
     <Address>285</Address>
-    <Value>1461</Value>
+    <Value>825</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--phase B voltage (Volts) = 43.3125-->
+    <!--phase B voltage (Volts) = 25.8125-->
     <Address>286</Address>
-    <Value>1386</Value>
+    <Value>826</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--phase C voltage (Volts) = 3.3125-->
+    <!--phase C voltage (Volts) = 25.7812-->
     <Address>287</Address>
-    <Value>106</Value>
+    <Value>825</Value>
   </SerializableParameter>
   <SerializableParameter>
     <!--bootloader revision () = 1.325-->
@@ -1450,9 +1450,9 @@
     <Value>1325</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--internal rail voltage (V) = 13.4619-->
+    <!--internal rail voltage (V) = 13.377-->
     <Address>289</Address>
-    <Value>13785</Value>
+    <Value>13698</Value>
   </SerializableParameter>
   <SerializableParameter>
     <!--high state of charge foldback gain () = 1-->
@@ -1460,24 +1460,24 @@
     <Value>4096</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--raw battery voltage (pu V) = 1.03-->
+    <!--raw battery voltage (pu V) = 1.0442-->
     <Address>291</Address>
-    <Value>4219</Value>
+    <Value>4277</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--phase A voltage per unit (pu V) = 0.1777-->
+    <!--phase A voltage per unit (pu V) = 0.5371-->
     <Address>292</Address>
-    <Value>728</Value>
+    <Value>2200</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--phase B voltage per unit (pu V) = 0.9724-->
+    <!--phase B voltage per unit (pu V) = 0.5393-->
     <Address>293</Address>
-    <Value>3983</Value>
+    <Value>2209</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--phase C voltage per unit (pu V) = 0.1389-->
+    <!--phase C voltage per unit (pu V) = 0.5376-->
     <Address>294</Address>
-    <Value>569</Value>
+    <Value>2202</Value>
   </SerializableParameter>
   <SerializableParameter>
     <!--digital outputs () = 0101000000111000-->
@@ -1485,14 +1485,14 @@
     <Value>20536</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--ia_pu () = -0.0723-->
+    <!--ia_pu () = 0.001-->
     <Address>296</Address>
-    <Value>-296</Value>
+    <Value>4</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--ic_pu () = -0.1106-->
+    <!--ic_pu () = -0.0017-->
     <Address>297</Address>
-    <Value>-453</Value>
+    <Value>-7</Value>
   </SerializableParameter>
   <SerializableParameter>
     <!--overload accumulator (%) = 0-->
@@ -1505,54 +1505,54 @@
     <Value>0</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--motor phase U high voltage POST (V (norm)) = 0.8589-->
+    <!--motor phase U high voltage POST (V (norm)) = 0.8535-->
     <Address>300</Address>
-    <Value>3518</Value>
+    <Value>3496</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--motor phase U low voltage POST (V (norm)) = 0.1792-->
+    <!--motor phase U low voltage POST (V (norm)) = 0.1804-->
     <Address>301</Address>
-    <Value>734</Value>
+    <Value>739</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--motor phase V high voltage POST (V (norm)) = 0.8555-->
+    <!--motor phase V high voltage POST (V (norm)) = 0.8569-->
     <Address>302</Address>
-    <Value>3504</Value>
+    <Value>3510</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--motor phase V low voltage POST (V (norm)) = 0.1802-->
+    <!--motor phase V low voltage POST (V (norm)) = 0.1816-->
     <Address>303</Address>
-    <Value>738</Value>
+    <Value>744</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--motor phase W high voltage POST (V (norm)) = 0.8557-->
+    <!--motor phase W high voltage POST (V (norm)) = 0.855-->
     <Address>304</Address>
-    <Value>3505</Value>
+    <Value>3502</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--motor phase W low voltage POST (V (norm)) = 0.1755-->
+    <!--motor phase W low voltage POST (V (norm)) = 0.178-->
     <Address>305</Address>
-    <Value>719</Value>
+    <Value>729</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--motor phase U open circuit voltage POST (V (norm)) = 0.5149-->
+    <!--motor phase U open circuit voltage POST (V (norm)) = 0.5139-->
     <Address>306</Address>
-    <Value>2109</Value>
+    <Value>2105</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--motor phase V open circuit voltage POST (V (norm)) = 0.5125-->
+    <!--motor phase V open circuit voltage POST (V (norm)) = 0.5156-->
     <Address>307</Address>
-    <Value>2099</Value>
+    <Value>2112</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--motor phase W open circuit voltage POST (V (norm)) = 0.5127-->
+    <!--motor phase W open circuit voltage POST (V (norm)) = 0.5146-->
     <Address>308</Address>
-    <Value>2100</Value>
+    <Value>2108</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--phase regen current power limit (pu) = 0.1147-->
+    <!--phase regen current power limit (pu) = 1-->
     <Address>309</Address>
-    <Value>470</Value>
+    <Value>4096</Value>
   </SerializableParameter>
   <SerializableParameter>
     <!--high voltage foldback gain (pu) = 1-->
@@ -1565,14 +1565,14 @@
     <Value>0</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--wheel RPM (motor based) (RPM) = 2037.9375-->
+    <!--wheel RPM (motor based) (RPM) = 0-->
     <Address>312</Address>
-    <Value>32607</Value>
+    <Value>0</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--measured wheel RPM (RPM) = 2037.9375-->
+    <!--measured wheel RPM (RPM) = 0-->
     <Address>313</Address>
-    <Value>32607</Value>
+    <Value>0</Value>
   </SerializableParameter>
   <SerializableParameter>
     <!--local power limit command (pu ) = 1-->
@@ -1580,14 +1580,14 @@
     <Value>4096</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--phase A current sensor offset (% of full scale) = 0.5037-->
+    <!--phase A current sensor offset (% of full scale) = 0.5029-->
     <Address>315</Address>
-    <Value>2063</Value>
+    <Value>2060</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--phase C current sensor offset (% of full scale) = 0.5044-->
+    <!--phase C current sensor offset (% of full scale) = 0.5012-->
     <Address>316</Address>
-    <Value>2066</Value>
+    <Value>2053</Value>
   </SerializableParameter>
   <SerializableParameter>
     <!--low voltage foldback gain (pu) = 1-->
@@ -1630,9 +1630,9 @@
     <Value>4096</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--throttle setpoint (pu) = 1-->
+    <!--throttle setpoint (pu) = 0-->
     <Address>325</Address>
-    <Value>4096</Value>
+    <Value>0</Value>
   </SerializableParameter>
   <SerializableParameter>
     <!--brake setpoint (pu) = 0-->
@@ -1640,9 +1640,9 @@
     <Value>0</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--controller flags () = 0001101010000100-->
+    <!--controller flags () = 0000001000000000-->
     <Address>327</Address>
-    <Value>6788</Value>
+    <Value>512</Value>
   </SerializableParameter>
   <SerializableParameter>
     <!--instantaneous pedal speed (RPM) = 0-->
@@ -1655,9 +1655,9 @@
     <Value>4096</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--sensorless state () = 4=Sensorless Close loop-->
+    <!--sensorless state () = 0=Sensorless Idle-->
     <Address>330</Address>
-    <Value>4</Value>
+    <Value>0</Value>
   </SerializableParameter>
   <SerializableParameter>
     <!--average pedal speed (RPM) = 0-->
@@ -1670,29 +1670,29 @@
     <Value>0</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--regen phase current limit (pu) = 0.1145-->
+    <!--regen phase current limit (pu) = 0.5-->
     <Address>333</Address>
-    <Value>469</Value>
+    <Value>2048</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--motor input power (W) = 1650-->
+    <!--motor input power (W) = 0-->
     <Address>334</Address>
-    <Value>1650</Value>
+    <Value>0</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--requested torque command (pu) = 1-->
+    <!--requested torque command (pu) = 0-->
     <Address>335</Address>
-    <Value>4096</Value>
+    <Value>0</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--torque reference (pu) = 1-->
+    <!--torque reference (pu) = 0-->
     <Address>336</Address>
-    <Value>4096</Value>
+    <Value>0</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--speed(ref/limit) command (pu) = 0.0747-->
+    <!--speed(ref/limit) command (pu) = 0.0854-->
     <Address>337</Address>
-    <Value>306</Value>
+    <Value>350</Value>
   </SerializableParameter>
   <SerializableParameter>
     <!--pedal speed gain (pu) = 0-->
@@ -1705,14 +1705,14 @@
     <Value>4096</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--port1 modbus CRC error count (counts) = 2-->
+    <!--port1 modbus CRC error count (counts) = 14013-->
     <Address>340</Address>
-    <Value>2</Value>
+    <Value>14013</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--port1 HW errors (counts) = 0-->
+    <!--port1 HW errors (counts) = 21427-->
     <Address>341</Address>
-    <Value>0</Value>
+    <Value>21427</Value>
   </SerializableParameter>
   <SerializableParameter>
     <!--port2 modbus CRC error count (counts) = 0-->
@@ -1725,64 +1725,64 @@
     <Value>0</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--reserved L4 4 (counts) = 0-->
+    <!--reserved L4 4 (counts) = 39-->
     <Address>344</Address>
-    <Value>0</Value>
+    <Value>39</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--vd (pu) = -0.0811-->
+    <!--vd (pu) = -0.0017-->
     <Address>345</Address>
-    <Value>-332</Value>
+    <Value>-7</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--vq (pu) = 0.9976-->
+    <!--vq (pu) = 0.0007-->
     <Address>346</Address>
-    <Value>4086</Value>
+    <Value>3</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--d feedback avg (pu) = 0.0259-->
+    <!--d feedback avg (pu) = 0.0002-->
     <Address>347</Address>
-    <Value>106</Value>
+    <Value>1</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--q feedback avg (pu) = 0.2236-->
+    <!--q feedback avg (pu) = 0.0005-->
     <Address>348</Address>
-    <Value>916</Value>
+    <Value>2</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--axle torque sensor offset voltage (V) = 0.0496-->
+    <!--axle torque sensor offset voltage (V) = 0.043-->
     <Address>349</Address>
-    <Value>203</Value>
+    <Value>176</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--current ISR execution time (us) = 59.0667-->
+    <!--current ISR execution time (us) = 57.5-->
     <Address>350</Address>
-    <Value>3544</Value>
+    <Value>3450</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--peak ISR execution time (us) = 69.1333-->
+    <!--peak ISR execution time (us) = 67.1833-->
     <Address>351</Address>
-    <Value>4148</Value>
+    <Value>4031</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--peak 1ms loop time (us) = 2161.8667-->
+    <!--peak 1ms loop time (us) = 2164.4-->
     <Address>352</Address>
-    <Value>32428</Value>
+    <Value>32466</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--average 1ms time (us) = 1010.2667-->
+    <!--average 1ms time (us) = 1009.2667-->
     <Address>353</Address>
-    <Value>15154</Value>
+    <Value>15139</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--1ms time (us) = 999.8667-->
+    <!--1ms time (us) = 996.1333-->
     <Address>354</Address>
-    <Value>14998</Value>
+    <Value>14942</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--execution time 4 (us) = 20.0167-->
+    <!--execution time 4 (us) = 19.5833-->
     <Address>355</Address>
-    <Value>1201</Value>
+    <Value>1175</Value>
   </SerializableParameter>
   <SerializableParameter>
     <!--autotune encoder offset (degrees) = 0-->
@@ -1845,9 +1845,9 @@
     <Value>4096</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--v error (pu) = -0.9175-->
+    <!--v error (pu) = 0-->
     <Address>368</Address>
-    <Value>-3758</Value>
+    <Value>0</Value>
   </SerializableParameter>
   <SerializableParameter>
     <!--v proportional (pu) = 0-->
@@ -1855,49 +1855,49 @@
     <Value>0</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--d integral (pu) = -0.1289-->
+    <!--d integral (pu) = -0.0039-->
     <Address>370</Address>
-    <Value>-33</Value>
+    <Value>-1</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--q integral (pu) = 1.2539-->
+    <!--q integral (pu) = 0-->
     <Address>371</Address>
-    <Value>321</Value>
+    <Value>0</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--d output (pu) = -0.1387-->
+    <!--d output (pu) = -0.0027-->
     <Address>372</Address>
-    <Value>-568</Value>
+    <Value>-11</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--q output (pu) = 1.146-->
+    <!--q output (pu) = 0-->
     <Address>373</Address>
-    <Value>4694</Value>
+    <Value>0</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--d error (pu) = -0.02-->
+    <!--d error (pu) = -0.0005-->
     <Address>374</Address>
-    <Value>-82</Value>
+    <Value>-2</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--q error (pu) = 0.7847-->
+    <!--q error (pu) = -0.0005-->
     <Address>375</Address>
-    <Value>3214</Value>
+    <Value>-2</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--d proportional (pu) = -0.0273-->
+    <!--d proportional (pu) = -0.0039-->
     <Address>376</Address>
-    <Value>-7</Value>
+    <Value>-1</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--q proportional (pu) = 0.9336-->
+    <!--q proportional (pu) = -0.0039-->
     <Address>377</Address>
-    <Value>239</Value>
+    <Value>-1</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--q limit from d (pu) = 1.1453-->
+    <!--q limit from d (pu) = 1.1545-->
     <Address>378</Address>
-    <Value>4691</Value>
+    <Value>4729</Value>
   </SerializableParameter>
   <SerializableParameter>
     <!--battery i^2t foldback gain (pu) = 1-->
@@ -1905,14 +1905,14 @@
     <Value>4096</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--d feedback (pu) = 0.0144-->
+    <!--d feedback (pu) = 0.0005-->
     <Address>380</Address>
-    <Value>59</Value>
+    <Value>2</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--q feedback (pu) = 0.2354-->
+    <!--q feedback (pu) = 0.0005-->
     <Address>381</Address>
-    <Value>964</Value>
+    <Value>2</Value>
   </SerializableParameter>
   <SerializableParameter>
     <!--d reference (pu) = 0-->
@@ -1920,14 +1920,14 @@
     <Value>0</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--q reference (pu) = 1-->
+    <!--q reference (pu) = 0-->
     <Address>383</Address>
-    <Value>4096</Value>
+    <Value>0</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--maximum measurable current (A) = 306-->
+    <!--maximum measurable current (A) = 309-->
     <Address>384</Address>
-    <Value>306</Value>
+    <Value>309</Value>
   </SerializableParameter>
   <SerializableParameter>
     <!--maximum measurable voltage (V) = 107-->
@@ -1945,39 +1945,39 @@
     <Value>4096</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--stator current alpha (pu) = 0.1895-->
+    <!--stator current alpha (pu) = -0.0005-->
     <Address>388</Address>
-    <Value>776</Value>
+    <Value>-2</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--stator current beta (pu) = 0.1052-->
+    <!--stator current beta (pu) = 0.001-->
     <Address>389</Address>
-    <Value>431</Value>
+    <Value>4</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--flux alpha (pu) = 0.6235-->
+    <!--flux alpha (pu) = 0.0007-->
     <Address>390</Address>
-    <Value>2554</Value>
+    <Value>3</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--flux beta (pu) = -0.7107-->
+    <!--flux beta (pu) = 0.0002-->
     <Address>391</Address>
-    <Value>-2911</Value>
+    <Value>1</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--flux frequency (Hertz) = 169-->
+    <!--flux frequency (Hertz) = 0-->
     <Address>392</Address>
-    <Value>169</Value>
+    <Value>0</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--flux magnitude (pu) = 0.9558-->
+    <!--flux magnitude (pu) = 0.0005-->
     <Address>393</Address>
-    <Value>3915</Value>
+    <Value>2</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--flux angle (pu) = -0.1149-->
+    <!--flux angle (pu) = -0.5-->
     <Address>394</Address>
-    <Value>-7528</Value>
+    <Value>-32768</Value>
   </SerializableParameter>
   <SerializableParameter>
     <!--open loop angle (deg) = 0-->
@@ -1985,19 +1985,19 @@
     <Value>0</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--calculated battery current motoring limit (A) = 166.5-->
+    <!--calculated battery current motoring limit (A) = 88.375-->
     <Address>396</Address>
-    <Value>1332</Value>
+    <Value>707</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--calculated battery current braking limit (A) = 16.625-->
+    <!--calculated battery current braking limit (A) = 8.75-->
     <Address>397</Address>
-    <Value>133</Value>
+    <Value>70</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--motor temperature sensor voltage (V) = 1.677-->
+    <!--motor temperature sensor voltage (V) = 2.8147-->
     <Address>398</Address>
-    <Value>6869</Value>
+    <Value>11529</Value>
   </SerializableParameter>
   <SerializableParameter>
     <!--pu Lm (pu) = 0-->
@@ -2030,9 +2030,9 @@
     <Value>0</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--ib rms (Arms) = 28.25-->
+    <!--ib rms (Arms) = 0.6562-->
     <Address>405</Address>
-    <Value>904</Value>
+    <Value>21</Value>
   </SerializableParameter>
   <SerializableParameter>
     <!--reserved_406 (
@@ -2046,74 +2046,74 @@
     <Value>0</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--trip meter (km) = 90.53-->
+    <!--trip meter (km) = 1.47-->
     <Address>408</Address>
-    <Value>9053</Value>
+    <Value>147</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--pedalec timeout delay () = 100-->
+    <!--pedalec timeout delay () = 500-->
     <Address>409</Address>
-    <Value>100</Value>
+    <Value>500</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--pll angle (pu) = -0.0615-->
+    <!--pll angle (pu) = -0-->
     <Address>410</Address>
-    <Value>-4032</Value>
+    <Value>-1</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--pll error (pu) = -0.0139-->
+    <!--pll error (pu) = 0-->
     <Address>411</Address>
-    <Value>-911</Value>
+    <Value>0</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--pll PI frequency (Hertz) = -17-->
+    <!--pll PI frequency (Hertz) = 0-->
     <Address>412</Address>
-    <Value>-17</Value>
+    <Value>0</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--pll proportional (Hertz) = -17-->
+    <!--pll proportional (Hertz) = 0-->
     <Address>413</Address>
-    <Value>-17</Value>
+    <Value>0</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--pll integral (Hertz) = -0.0781-->
+    <!--pll integral (Hertz) = 0-->
     <Address>414</Address>
-    <Value>-20</Value>
+    <Value>0</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--rotor frequency (Hertz) = 170-->
+    <!--rotor frequency (Hertz) = 0-->
     <Address>415</Address>
-    <Value>170</Value>
+    <Value>0</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--pll reference angle (pu) = -0.0623-->
+    <!--pll reference angle (pu) = 0-->
     <Address>416</Address>
-    <Value>-4084</Value>
+    <Value>0</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--hall angle (pu) = -0.0623-->
+    <!--hall angle (pu) = -0.1667-->
     <Address>417</Address>
-    <Value>-4084</Value>
+    <Value>-10923</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--last fault2 () = 1000000000000000-->
+    <!--last fault2 () = 0000000000000000-->
     <Address>418</Address>
-    <Value>-32768</Value>
+    <Value>0</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--hall frequency (Hertz) = 170-->
+    <!--hall frequency (Hertz) = 0-->
     <Address>419</Address>
-    <Value>170</Value>
+    <Value>0</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--q limit () = 1.1484-->
+    <!--q limit () = 1.1523-->
     <Address>420</Address>
-    <Value>294</Value>
+    <Value>295</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--d limit () = 0.0977-->
+    <!--d limit () = 1.1523-->
     <Address>421</Address>
-    <Value>25</Value>
+    <Value>295</Value>
   </SerializableParameter>
   <SerializableParameter>
     <!--id ref trim () = 0-->
@@ -2141,14 +2141,14 @@
     <Value>0</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--pu Rs (pu mohm) = 0.1567-->
+    <!--pu Rs (pu mohm) = 0.1372-->
     <Address>427</Address>
-    <Value>642</Value>
+    <Value>562</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--pu Ls (pu uHenries) = 0.4265-->
+    <!--pu Ls (pu uHenries) = 0.4333-->
     <Address>428</Address>
-    <Value>1747</Value>
+    <Value>1775</Value>
   </SerializableParameter>
   <SerializableParameter>
     <!--rated electrical frequency (Hz) = 171.375-->
@@ -2166,19 +2166,19 @@
     <Value>4096</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--flash parameter cycle counter () = 524-->
+    <!--flash parameter cycle counter () = 96-->
     <Address>432</Address>
-    <Value>524</Value>
+    <Value>96</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--ia_rms (Arms) = 29.875-->
+    <!--ia_rms (Arms) = 0.6562-->
     <Address>433</Address>
-    <Value>956</Value>
+    <Value>21</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--ic_rms (Arms) = 27.9375-->
+    <!--ic_rms (Arms) = 0.6562-->
     <Address>434</Address>
-    <Value>894</Value>
+    <Value>21</Value>
   </SerializableParameter>
   <SerializableParameter>
     <!--iq_trim_q12 (pu) = 0-->
@@ -2187,24 +2187,24 @@
   </SerializableParameter>
   <SerializableParameter>
     <!--modulation index (
-			) = 1.1543-->
+			) = 0-->
     <Address>436</Address>
-    <Value>4728</Value>
+    <Value>0</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--pwm cmd a pwm () = 676-->
+    <!--pwm cmd a pwm () = 1155-->
     <Address>437</Address>
-    <Value>676</Value>
+    <Value>1155</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--pwm cmd b pwm () = 2307-->
+    <!--pwm cmd b pwm () = 1152-->
     <Address>438</Address>
-    <Value>2307</Value>
+    <Value>1152</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--pwm cmd c pwm () = 101-->
+    <!--pwm cmd c pwm () = 1156-->
     <Address>439</Address>
-    <Value>101</Value>
+    <Value>1156</Value>
   </SerializableParameter>
   <SerializableParameter>
     <!--autotune hall sector[0] () = 0-->
@@ -2247,14 +2247,14 @@
     <Value>0</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--parameter CRC32 high word () = CDED-->
+    <!--parameter CRC32 high word () = DAD0-->
     <Address>448</Address>
-    <Value>-12819</Value>
+    <Value>-9520</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--parameter CRC32 low word () = 6852-->
+    <!--parameter CRC32 low word () = 59C4-->
     <Address>449</Address>
-    <Value>26706</Value>
+    <Value>22980</Value>
   </SerializableParameter>
   <SerializableParameter>
     <!--user access level () = 0-->
@@ -2292,19 +2292,19 @@
     <Value>4096</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--regen limit pre-foldback (pu) = 11.4502-->
+    <!--regen limit pre-foldback (pu) = 50-->
     <Address>457</Address>
-    <Value>469</Value>
+    <Value>2048</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--peak background period (us) = 2156.4-->
+    <!--peak background period (us) = 2164.8-->
     <Address>458</Address>
-    <Value>32346</Value>
+    <Value>32472</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--avg background period (us) = 103.6-->
+    <!--avg background period (us) = 87.4-->
     <Address>459</Address>
-    <Value>1554</Value>
+    <Value>1311</Value>
   </SerializableParameter>
   <SerializableParameter>
     <!--autotune hall offset angle (degrees) = 0-->
@@ -2337,9 +2337,9 @@
     <Value>17</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--otp serial number1 () = 08CB-->
+    <!--otp serial number1 () = 091A-->
     <Address>466</Address>
-    <Value>2251</Value>
+    <Value>2330</Value>
   </SerializableParameter>
   <SerializableParameter>
     <!--otp serial number2 () = 0000-->
@@ -2352,9 +2352,9 @@
     <Value>0</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--otp serial number4 () = 3717-->
+    <!--otp serial number4 () = 3878-->
     <Address>469</Address>
-    <Value>14103</Value>
+    <Value>14456</Value>
   </SerializableParameter>
   <SerializableParameter>
     <!--otp serial number5 () = 0000-->
@@ -2362,19 +2362,19 @@
     <Value>0</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--otp serial number6 () = D403-->
+    <!--otp serial number6 () = C60C-->
     <Address>471</Address>
-    <Value>-11261</Value>
+    <Value>-14836</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--otp serial number7 () = 03B7-->
+    <!--otp serial number7 () = 0088-->
     <Address>472</Address>
-    <Value>951</Value>
+    <Value>136</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--commanded speed (% of rated rpm) = 7.4707-->
+    <!--commanded speed (% of rated rpm) = 0-->
     <Address>473</Address>
-    <Value>306</Value>
+    <Value>0</Value>
   </SerializableParameter>
   <SerializableParameter>
     <!--commanded maximum motoring current (% of rated motor current) = 100-->
@@ -2387,14 +2387,14 @@
     <Value>2048</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--commanded state () = 2=RUN-->
+    <!--commanded state () = 1=IDLE-->
     <Address>476</Address>
-    <Value>2</Value>
+    <Value>1</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--commanded torque (%) = 100-->
+    <!--commanded torque (%) = 0-->
     <Address>477</Address>
-    <Value>4096</Value>
+    <Value>0</Value>
   </SerializableParameter>
   <SerializableParameter>
     <!--reserved_478 (%) = 0-->
@@ -2482,9 +2482,9 @@
     <Value>0</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--Remote Throttle Voltage (Volts) = 4-->
+    <!--Remote Throttle Voltage (Volts) = 0-->
     <Address>495</Address>
-    <Value>16384</Value>
+    <Value>0</Value>
   </SerializableParameter>
   <SerializableParameter>
     <!--Remote Digital Commands () = 0000000000010000-->
@@ -2562,19 +2562,19 @@
     <Value>0</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--Write parameters to flash () = 0000-->
+    <!--Write parameters to flash () = 1000-->
     <Address>511</Address>
-    <Value>0</Value>
+    <Value>4096</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--reserved_ptable1 () = 97-->
+    <!--reserved_ptable1 () = 42-->
     <Address>1536</Address>
-    <Value>97</Value>
+    <Value>42</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--reserved_ptable2 () = 1286-->
+    <!--reserved_ptable2 () = 0-->
     <Address>1537</Address>
-    <Value>1286</Value>
+    <Value>0</Value>
   </SerializableParameter>
   <SerializableParameter>
     <!--reserved_ptable3 () = 0-->
@@ -2607,14 +2607,14 @@
     <Value>0</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--reserved_ptable9 () = 2548-->
+    <!--reserved_ptable9 () = 177-->
     <Address>1544</Address>
-    <Value>2548</Value>
+    <Value>177</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--reserved_ptable10 () = 45-->
+    <!--reserved_ptable10 () = 0-->
     <Address>1545</Address>
-    <Value>45</Value>
+    <Value>0</Value>
   </SerializableParameter>
   <SerializableParameter>
     <!--reserved_1664 (hex) = 0000-->
@@ -2732,9 +2732,9 @@
     <Value>0</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--runtime max switching frequency () = 14000-->
+    <!--runtime max switching frequency () = 14500-->
     <Address>1687</Address>
-    <Value>14000</Value>
+    <Value>14500</Value>
   </SerializableParameter>
   <SerializableParameter>
     <!--accelerometer Y angle () = 0-->
@@ -2747,9 +2747,9 @@
     <Value>273</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--odometer low (km) = 90.53-->
+    <!--odometer low (km) = 1.47-->
     <Address>1690</Address>
-    <Value>9053</Value>
+    <Value>147</Value>
   </SerializableParameter>
   <SerializableParameter>
     <!--odometer high (km) = 0-->
@@ -2757,9 +2757,9 @@
     <Value>0</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--motor on time low (Hours) = 0.725-->
+    <!--motor on time low (Hours) = 0.2167-->
     <Address>1692</Address>
-    <Value>87</Value>
+    <Value>26</Value>
   </SerializableParameter>
   <SerializableParameter>
     <!--motor on time high (Hours) = 0-->
@@ -2782,9 +2782,9 @@
     <Value>2048</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--faults2_log () = 1000000000000000-->
+    <!--faults2_log () = 0000000000000000-->
     <Address>1697</Address>
-    <Value>-32768</Value>
+    <Value>0</Value>
   </SerializableParameter>
   <SerializableParameter>
     <!--Dynamic Flash Variable 9 () = 0-->
@@ -2797,9 +2797,9 @@
     <Value>0</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--dsp core temperature (high resolution) (deg C) = 54.5625-->
+    <!--dsp core temperature (high resolution) (deg C) = 41.75-->
     <Address>1700</Address>
-    <Value>873</Value>
+    <Value>668</Value>
   </SerializableParameter>
   <SerializableParameter>
     <!--battery temperature fractional value (deg C) = 0-->
@@ -2807,19 +2807,19 @@
     <Value>0</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--motor temperature (high resolution) (deg C) = 97.375-->
+    <!--motor temperature (high resolution) (deg C) = -5.875-->
     <Address>1702</Address>
-    <Value>1558</Value>
+    <Value>-94</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--controller temperature (high resolution) (deg C) = 45.875-->
+    <!--controller temperature (high resolution) (deg C) = 34.625-->
     <Address>1703</Address>
-    <Value>734</Value>
+    <Value>554</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--Remote Power Limit (%) = 100-->
+    <!--Remote Power Limit (%) = 0-->
     <Address>1704</Address>
-    <Value>4096</Value>
+    <Value>0</Value>
   </SerializableParameter>
   <SerializableParameter>
     <!--sector H flash status () = 0111-->
@@ -2907,14 +2907,14 @@
     <Value>0</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--Power Consumed (WHr) = 1188-->
+    <!--Power Consumed (WHr) = 153-->
     <Address>1722</Address>
-    <Value>1188</Value>
+    <Value>153</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--Power Consumed (Remainder) (WHr) = 0.63-->
+    <!--Power Consumed (Remainder) (WHr) = 0.9747-->
     <Address>1723</Address>
-    <Value>20645</Value>
+    <Value>31940</Value>
   </SerializableParameter>
   <SerializableParameter>
     <!--ADC Saturation Event Source () = 0000000000000000-->
@@ -2922,9 +2922,9 @@
     <Value>0</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--vehicle speed (high speed vehicle) (km/hr) = 253.4844-->
+    <!--vehicle speed (high speed vehicle) (km/hr) = 0-->
     <Address>1726</Address>
-    <Value>32446</Value>
+    <Value>0</Value>
   </SerializableParameter>
   <SerializableParameter>
     <!--mappable CAN Param 01 (hex) = 0000-->
@@ -3027,14 +3027,14 @@
     <Value>0</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--level 0 Parameter CRC- high word (hex) = 80EE-->
+    <!--level 0 Parameter CRC- high word (hex) = 428C-->
     <Address>1784</Address>
-    <Value>-32530</Value>
+    <Value>17036</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--level 0 Parameter CRC- low word (hex) = 4FBE-->
+    <!--level 0 Parameter CRC- low word (hex) = 0A25-->
     <Address>1785</Address>
-    <Value>20414</Value>
+    <Value>2597</Value>
   </SerializableParameter>
   <SerializableParameter>
     <!--level 1 Parameter CRC- high word (hex) = 2A07-->
@@ -3042,29 +3042,29 @@
     <Value>10759</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--level 1 Parameter CRC- low word (hex) = 7020-->
+    <!--level 1 Parameter CRC- low word (hex) = 7021-->
     <Address>1787</Address>
-    <Value>28704</Value>
+    <Value>28705</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--level 2 Parameter CRC- high word (hex) = 6612-->
+    <!--level 2 Parameter CRC- high word (hex) = FC11-->
     <Address>1788</Address>
-    <Value>26130</Value>
+    <Value>-1007</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--level 2 Parameter CRC- low word (hex) = BC09-->
+    <!--level 2 Parameter CRC- low word (hex) = 9549-->
     <Address>1789</Address>
-    <Value>-17399</Value>
+    <Value>-27319</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--level 3 Parameter CRC- high word (hex) = 626E-->
+    <!--level 3 Parameter CRC- high word (hex) = 12D4-->
     <Address>1790</Address>
-    <Value>25198</Value>
+    <Value>4820</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--level 3 Parameter CRC- low word (hex) = 8653-->
+    <!--level 3 Parameter CRC- low word (hex) = 0E2E-->
     <Address>1791</Address>
-    <Value>-31149</Value>
+    <Value>3630</Value>
   </SerializableParameter>
   <SerializableParameter>
     <!--RPDO1 map1 sub index and size (hex) = 0000-->
@@ -3507,9 +3507,9 @@
     <Value>0</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--Level 1 Features () = 0000000000000001-->
+    <!--Level 1 Features () = 0000000000000000-->
     <Address>1880</Address>
-    <Value>1</Value>
+    <Value>0</Value>
   </SerializableParameter>
   <SerializableParameter>
     <!--Spare 1881 level 1 () = 0-->
@@ -3882,9 +3882,9 @@
     <Value>0</Value>
   </SerializableParameter>
   <SerializableParameter>
-    <!--Current Regulator Kcc  () = 1279.5-->
+    <!--Current Regulator Kcc  () = 1300-->
     <Address>1955</Address>
-    <Value>5118</Value>
+    <Value>5200</Value>
   </SerializableParameter>
   <SerializableParameter>
     <!--Encoder Sine High Voltage  () = 0-->
